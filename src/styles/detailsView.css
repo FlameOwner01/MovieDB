@@ -1,0 +1,31 @@
+
+.detailsView{
+    margin-top: 8vh;
+    margin-left: 25vh;
+}
+
+
+.backdrop-img{
+    margin-top: 5vh;
+    border: 3px solid black;
+    width: 150vh;
+    padding: 1vh;
+}
+
+.details{
+    padding: 10vh;
+    width: 80%;
+}
+.title{
+    font-weight: bold;
+    font-family: "Cambria Math" ;
+    font-size: 26px;
+    margin-left: 33%;
+    padding: 10px;
+}
+.overview{
+    padding: 10px;
+    font-family: "Cambria Math";
+    font-size: 24px;
+
+}

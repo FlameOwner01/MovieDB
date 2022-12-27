@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Baskerville Old Face";
+  font-size: 20px;
+}
+html{
+  background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000");
+
+  height: 100%;
+  margin-top: 20vh;
+}
+
+.row{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: flex;
+  row-gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.block{
+  width: 305px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 5%;
+  padding-bottom: 30px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 600px;
+}
+
+.block:hover{
+  background-color: darkred;
+}
+
+.poster-img{
+  height: 450px;
+  width: 300px;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+}
+
+.nameHeading{
+  padding-top: 5px;
+  line-break: auto;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.vote{
+  margin-top: 2vh;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+

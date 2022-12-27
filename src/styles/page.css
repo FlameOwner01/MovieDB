@@ -1,0 +1,55 @@
+.buttonsCenter{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.moviesButton:hover{
+    opacity: 0.8;
+}
+.seriesButton:hover{
+    opacity: 0.8;
+}
+.moviesButton{
+    padding: 0vh;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5vh;
+    width: 20vh;
+    height: 7vh;
+}
+.seriesButton{
+    margin-left: 5vh;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5vh;
+    width: 20vh;
+    height: 7vh;
+}
+
+.searchBar{
+    padding: 5px;
+    margin-left: 20%;
+    width: 60%;
+    background-color: rgba(256,256,256,1);
+    border-radius: 10px;
+    display: inline-block;
+    height: 50px;
+    font-weight: bold;
+}
+
+.activeButton{
+    width: 22vh;
+}
+
+@media screen and (max-width: 700px){
+    .moviesButton{
+        margin-top: 30%;
+    }
+    .seriesButton{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+}
+

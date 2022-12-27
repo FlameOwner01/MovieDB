@@ -1,0 +1,111 @@
+.navbar{
+    height: 20vh;
+    background-color: rgba(255,255,255);
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 3vh;
+    position: fixed;
+    top: 0!important;
+}
+
+
+.forwardButton
+{
+    background-color: black;
+    color: rgba(255,255,255);
+    width: 17vh;
+    height: 7vh;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    border-radius: 5vh;
+    border: 2px solid cornflowerblue;
+
+}
+
+.backButton{
+    background-color: black;
+    color: white;
+    width: 17vh;
+    height: 7vh;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    border-radius: 5vh;
+    border: 2px solid cornflowerblue;
+
+}
+
+.home{
+    background-color: black;
+    color: rgba(255,255,255);
+    width: 17vh;
+    height: 7vh;
+    border-radius: 5vh;
+    border: 2px solid cornflowerblue;
+    margin-left: 3vh;
+}
+.backSign{
+    margin-top: 3vh;
+    display: none;
+    margin-left: 2vh;
+    border-radius: 5vh;
+    height: 6vh;
+    width: 6vh;
+    background-color: whitesmoke;
+}
+
+.forwardSign{
+    display: none;
+    margin-left: 2vh;
+    border-radius: 5vh;
+    height: 6vh;
+    width: 6vh;
+    background-color: whitesmoke;
+}
+.exit{
+    background-color: white;
+    border: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 3.5vh;
+}
+
+@media screen and (max-width: 800px) {
+    .backButton{
+        display: none;
+    }
+    .backSign{
+        display: inline-block;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .forwardButton{
+        display: none;
+    }
+    .forwardSign{
+        display: inline-block;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .navbar{
+        height: 30vh;
+    }
+}
+
+
+
+.backButton:hover{
+    opacity: 0.8;
+}
+
+.forwardButton:hover{
+    opacity: 0.8;
+}
+
+.home:hover{
+    opacity: 0.8;
+}
+.exit:hover{
+    opacity: 0.8;
+}
+
+
